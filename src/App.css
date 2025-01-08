@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .hero-text {
+    flex: 1;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* About Section Styles */
+  .about {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  /* Services Section Styles */
+  .services {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .service-card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background-color: white;
+  }
+  
+  .service-card h3 {
+    margin-top: 0;
+  }
+  
+  .service-card button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .service-card button:hover {
+    background-color: #555;
+  }
+  
